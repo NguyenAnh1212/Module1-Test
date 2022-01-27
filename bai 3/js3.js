@@ -12,8 +12,9 @@ function countvowel(arr) {
         }
 
     }
+
     if(count!=0) {
-        return check = true;
+        return count;
     }
    return  check = false;
 }
