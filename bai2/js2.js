@@ -5,9 +5,8 @@ function findNumber(arr,num) {
         if (num==arr[i]){
            index = i;
         }
-        return i;
     }
-    return -1;
+    return index;
 }
 let arr = [1,5,8,9,-1,7];
 findNumber(arr,1);
