@@ -10,21 +10,20 @@ class Animal {
         this.weight = newWeight;
     }
 	getName(){
-        return this.name = name;
+        return this.name;
     }
 	getWeight(){
-        return this.weight = weight;
+        return this.weight;
     }
 	toString(){
         return "Con vật có tên là "+ this.name+" cân nặng "+this.weight;
     }
 }
-let objAnimal1 = new Animal();
-objAnimal1.setName("Elephant");
-objAnimal1.setWeight(45.6);
+let objAnimal1 = new Animal("Elephant",45.6);
 objAnimal1.toString();
-let objAnimal2 = new Animal(name,weight);
+let objAnimal2 = new Animal("Cat",30);
 objAnimal2.setName("Mouse");
+
 
 
 
